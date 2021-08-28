@@ -5,5 +5,8 @@ def getDistance(X, Y):
 
 R, X, Y  = map(int, input().split())
 distance = getDistance([0,0], [X,Y])
+if distance < R:
+    print(2)
+    exit()
 num = math.ceil(distance/R)
 print(num)
