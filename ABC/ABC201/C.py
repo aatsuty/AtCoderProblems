@@ -33,6 +33,8 @@ if maruCount == 1:
     print(answer)
     exit()
     
+# 下記2パターンがNG
+
 if maruCount == 2:
     answer = kanoCount**4 - hateCount**4
     # この時点で、〇が1つは入ってるが、２つともは入っていない可能性がある
